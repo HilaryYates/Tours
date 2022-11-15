@@ -2,7 +2,8 @@ $color-primary: rgb(85, 197, 122);
 $color-primary-light: rgba(126, 213, 111, 0.8);
 $color-primary-dark: rgba(40, 180, 133, 0.8);
 
-$color-grey-dark: rgb(255, 255, 255);
+$color-grey-dark: rgb(119, 119, 119);
+$color-white: rgb(255, 255, 255);
 
 * {
   margin: 0;
@@ -15,7 +16,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #777;
+  color: $color-white;
   padding: 30px;
 }
 
@@ -52,7 +53,7 @@ body {
 }
 
 .heading-primary {
-  color: $color-grey-dark;
+  color: $color-white;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 60px;
@@ -110,7 +111,7 @@ btn:visited {
 }
 
 .btn-white {
-  background-color: $color-grey-dark;
+  background-color: $color-white;
   color: #777;
   padding: 15px 40px;
 }
