@@ -7,121 +7,14 @@
 @import "base/animations";
 @import "base/utilities";
 
-@import "pages/home" $color-primary: rgb(85, 197, 122);
-$color-primary-light: rgba(126, 213, 111, 0.8);
-$color-primary-dark: rgba(40, 180, 133, 0.8);
+@import "pages/home";
 
-$color-grey-dark: rgb(119, 119, 119);
-$color-white: rgb(255, 255, 255);
+@import "components/button";
+
+@import "layout/header";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.7;
-  color: $color-white;
-  padding: 30px;
-}
-
-.header {
-  height: 95vh;
-  background-image: linear-gradient(
-      to right bottom,
-      $color-primary-light,
-      $color-primary-dark
-    ),
-    url(../img/hero.jpg);
-  background-size: cover;
-  background-position: top;
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-  position: relative;
-}
-
-.logo {
-  height: 35px;
-  &-box {
-    position: absolute;
-    top: 40px;
-    left: 40px;
-  }
-}
-
-.text-box {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.heading-primary {
-  color: $color-white;
-  text-transform: uppercase;
-  backface-visibility: hidden;
-  margin-bottom: 60px;
-
-  &-main {
-    display: block;
-    font-size: 60px;
-    font-weight: 400;
-    letter-spacing: 35px;
-    animation: moveInLeft 1s ease-out;
-  }
-
-  &-sub {
-    display: block;
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 17.4px;
-  }
-}
-
-@keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-100%);
-  }
-
-  80% {
-    transform: translateX(10px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-
-.btn {
-  &:hover {
-    transform: translateY(-3px);
-    box-shadow: 0px 10px 30px #00000020;
-  }
-
-  &:active {
-    transform: translateY(-1px);
-    box-shadow: 0px 5px 10px #00000020;
-  }
-
-  &-white {
-    background-color: $color-white;
-    color: $color-grey-dark;
-    padding: 15px 40px;
-  }
-
-  &:link,
-  &:visited {
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 100px;
-    transition: all 0.2s;
-    position: relative;
-  }
 }
