@@ -67,8 +67,6 @@ body {
   font-weight: 400;
   letter-spacing: 35px;
   animation: moveInLeft 1s ease-out;
-  /* animation-delay: 3s; */
-  /* animation-iteration-count: 3; */
 }
 
 .heading-primary-sub {
@@ -118,25 +116,4 @@ btn:visited {
   background-color: #fff;
   color: #777;
   padding: 15px 40px;
-}
-
-.btn::after {
-  content: "";
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-  border-radius: 100%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-}
-
-.btn-white::after {
-  background-color: #fff;
-}
-
-.btn:hover::after {
-  transform: scale(2);
 }
