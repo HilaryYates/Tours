@@ -21,6 +21,6 @@
     "node-sass": "^8.0.0"
   },
   "dependencies": {
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.1"
   }
 }

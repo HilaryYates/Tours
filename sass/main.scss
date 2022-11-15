@@ -57,21 +57,21 @@ body {
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 60px;
-}
 
-.heading-primary-main {
-  display: block;
-  font-size: 60px;
-  font-weight: 400;
-  letter-spacing: 35px;
-  animation: moveInLeft 1s ease-out;
-}
+  &-main {
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
+    animation: moveInLeft 1s ease-out;
+  }
 
-.heading-primary-sub {
-  display: block;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 17.4px;
+  &-sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 17.4px;
+  }
 }
 
 @keyframes moveInLeft {
@@ -112,6 +112,6 @@ btn:visited {
 
 .btn-white {
   background-color: $color-white;
-  color: #777;
+  color: $color-grey-dark;
   padding: 15px 40px;
 }
