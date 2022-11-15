@@ -1,6 +1,8 @@
-$color-primary: #55c57a;
-$color-primary-light: #7ed56f;
-$color-primary-dark: #28b485;
+$color-primary: rgb(85, 197, 122);
+$color-primary-light: rgba(126, 213, 111, 0.8);
+$color-primary-dark: rgba(40, 180, 133, 0.8);
+
+$color-grey-dark: rgb(255, 255, 255);
 
 * {
   margin: 0;
@@ -21,7 +23,8 @@ body {
   height: 95vh;
   background-image: linear-gradient(
       to right bottom,
-      $color-primary-light #28b485
+      $color-primary-light,
+      $color-primary-dark
     ),
     url(../img/hero.jpg);
   background-size: cover;
@@ -49,7 +52,7 @@ body {
 }
 
 .heading-primary {
-  color: #ffffff;
+  color: $color-grey-dark;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 60px;
@@ -107,7 +110,7 @@ btn:visited {
 }
 
 .btn-white {
-  background-color: #fff;
+  background-color: $color-grey-dark;
   color: #777;
   padding: 15px 40px;
 }
