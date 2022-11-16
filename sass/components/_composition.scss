@@ -2,15 +2,27 @@
   &_photo-p1 {
     width: 85%;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
+    }
   }
   &_photo-p2 {
     width: 113%;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
+    }
   }
 
   &_photo-p3 {
     width: 150%;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
+    }
   }
 }
 
