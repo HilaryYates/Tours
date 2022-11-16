@@ -1,15 +1,21 @@
 .composition {
   &_photo-p1 {
-    width: 55%;
+    width: 85%;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
   }
   &_photo-p2 {
-    width: 73%;
+    width: 113%;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
   }
 
   &_photo-p3 {
-    width: 97%;
+    width: 150%;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
   }
+}
+
+.section-about-image-container {
+  position: absolute;
+  top: 155%;
+  left: 70%;
 }
