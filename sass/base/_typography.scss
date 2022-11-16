@@ -7,12 +7,6 @@ body {
   padding: 30px;
 }
 
-// .heading-secondary {
-//   font-size: 3.5rem;
-//   text-transform: uppercase;
-//   font-weight: 700;
-// }
-
 .headiing-secondary-text {
   background-image: linear-gradient(
     to right,
@@ -22,11 +16,35 @@ body {
   display: inline-block;
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 3.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: 700;
+  &:hover {
+    transform: skewY(0deg) skewX(15deg);
+    translate: all 0.2s;
+  }
 }
 
 .bug-text {
   color: $color-primary;
+}
+
+.section-about-text {
+  color: $color-grey;
+  padding-left: 20%;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.section-about-text.paragraph {
+  padding-top: 1%;
+  font-size: 0.6rem;
+  &:not(:last-child) {
+    margin-bottom: 8rem;
+  }
+}
+
+.make-paragraph {
+  width: 60%;
 }
