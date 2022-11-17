@@ -19,7 +19,7 @@ body {
     translate: all 0.2s; }
 
 .bug-text {
-  color: #55c57a; }
+  color: #45a062; }
 
 .section-about-text {
   color: #9d9d9d;
@@ -62,8 +62,12 @@ body {
   margin-top: -20vh; }
 
 .section-about-image {
-  padding-right: 25%;
-  color: red; }
+  padding-right: 25%; }
+
+.section-features {
+  padding: 20rem 0;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+  background-size: cover; }
 
 .btn:hover {
   transform: translateY(-3px);
@@ -129,6 +133,30 @@ body {
   position: absolute;
   top: 155%;
   left: 70%; }
+
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.6);
+  font-size: 1.5rem;
+  padding-top: 6%;
+  padding-bottom: 4%;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem #777777;
+  width: 25%; }
+  .feature-box-heading-text {
+    color: black;
+    padding-right: 12%;
+    font-size: 1rem; }
+  .feature-box-paragraph-text {
+    color: black;
+    font-size: 1rem;
+    padding-right: 10%;
+    padding-bottom: 15%; }
+
+.icon-basic-world {
+  width: 35%;
+  padding-top: 10%;
+  padding-right: 10%; }
 
 .header {
   height: 95vh;

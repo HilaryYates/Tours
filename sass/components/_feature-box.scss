@@ -1,0 +1,32 @@
+.feature-box {
+  background-color: rgba($color-white, 0.6);
+  font-size: 1.5rem;
+  // padding-left: 2.5rem;
+  padding-top: 6%;
+  padding-bottom: 4%;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem $color-grey-dark;
+  width: 25%;
+  &-heading-text {
+    color: $color-black;
+    padding-right: 12%;
+    font-size: 1rem;
+  }
+  &-paragraph-text {
+    color: $color-black;
+    font-size: 1rem;
+    padding-right: 10%;
+    padding-bottom: 15%;
+    // padding-top: 10%;
+  }
+}
+
+.icon-basic-world {
+  // color: $color-black;
+  // font-size: 6rem;
+  // margin-bottom: 0.5rem;
+  width: 35%;
+  padding-top: 10%;
+  padding-right: 10%;
+}
