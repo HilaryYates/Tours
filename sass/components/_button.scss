@@ -27,6 +27,8 @@
 }
 
 .btn-text {
+  position: absolute;
+  margin-left: 11.5%;
   transition: all 0.2s;
   &:link,
   &:visited {
