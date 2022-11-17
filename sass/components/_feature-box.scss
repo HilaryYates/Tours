@@ -12,27 +12,28 @@
   box-shadow: 0 1.5rem 4rem $color-grey-dark;
   width: 25%;
   &-heading-text {
-    color: $color-black;
+    color: $color-white;
     padding-right: 12%;
     font-size: 1rem;
   }
   &-paragraph-text {
-    color: $color-black;
+    color: $color-white;
     font-size: 1rem;
     padding-right: 10%;
     padding-bottom: 15%;
   }
 }
 
-.icon-basic-world {
+.icon-1 {
   width: 35%;
   padding-top: 10%;
   padding-right: 10%;
+  filter: opacity(0.75) drop-shadow(0 0 0 $color-grey-dark);
 }
 
 .feature-box-2 {
   position: absolute;
-  color: $color-black;
+  color: $color-white;
 
   margin-left: 65%;
 
@@ -45,29 +46,30 @@
   box-shadow: 0 1.5rem 4rem $color-grey-dark;
   width: 25%;
   &-heading-text-2 {
-    color: $color-black;
+    color: $color-white;
     padding-right: 12%;
     font-size: 1rem;
   }
   &-paragraph-text-2 {
-    color: $color-black;
+    color: $color-white;
     font-size: 1rem;
     padding-right: 10%;
     padding-bottom: 15%;
   }
 }
 
-.icon-basic-world-2 {
+.icon-2 {
   width: 35%;
   padding-top: 10%;
   padding-right: 10%;
+  filter: opacity(0.6) drop-shadow(0 0 0 $color-grey-dark);
 }
 
 .feature-box-3 {
   position: relative;
   margin-left: 37%;
 
-  color: $color-black;
+  color: $color-white;
 
   background-color: rgba($color-white, 0.6);
   font-size: 1rem;
@@ -78,20 +80,21 @@
   box-shadow: 0 1.5rem 4rem $color-grey-dark;
   width: 25%;
   &-heading-text-3 {
-    color: $color-black;
+    color: $color-white;
     padding-right: 12%;
     font-size: 1rem;
   }
   &-paragraph-text-3 {
-    color: $color-black;
+    color: $color-white;
     font-size: 1rem;
     padding-right: 10%;
     padding-bottom: 15%;
   }
 }
 
-.icon-basic-world-3 {
+.icon-3 {
   width: 35%;
   padding-top: 10%;
   padding-right: 10%;
+  filter: opacity(0.6) drop-shadow(0 0 0 $color-grey-dark);
 }

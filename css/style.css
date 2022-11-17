@@ -148,23 +148,24 @@ body {
   box-shadow: 0 1.5rem 4rem #777777;
   width: 25%; }
   .feature-box-heading-text {
-    color: black;
+    color: white;
     padding-right: 12%;
     font-size: 1rem; }
   .feature-box-paragraph-text {
-    color: black;
+    color: white;
     font-size: 1rem;
     padding-right: 10%;
     padding-bottom: 15%; }
 
-.icon-basic-world {
+.icon-1 {
   width: 35%;
   padding-top: 10%;
-  padding-right: 10%; }
+  padding-right: 10%;
+  filter: opacity(0.75) drop-shadow(0 0 0 #777777); }
 
 .feature-box-2 {
   position: absolute;
-  color: black;
+  color: white;
   margin-left: 65%;
   background-color: rgba(255, 255, 255, 0.6);
   font-size: 1rem;
@@ -175,24 +176,25 @@ body {
   box-shadow: 0 1.5rem 4rem #777777;
   width: 25%; }
   .feature-box-2-heading-text-2 {
-    color: black;
+    color: white;
     padding-right: 12%;
     font-size: 1rem; }
   .feature-box-2-paragraph-text-2 {
-    color: black;
+    color: white;
     font-size: 1rem;
     padding-right: 10%;
     padding-bottom: 15%; }
 
-.icon-basic-world-2 {
+.icon-2 {
   width: 35%;
   padding-top: 10%;
-  padding-right: 10%; }
+  padding-right: 10%;
+  filter: opacity(0.6) drop-shadow(0 0 0 #777777); }
 
 .feature-box-3 {
   position: relative;
   margin-left: 37%;
-  color: black;
+  color: white;
   background-color: rgba(255, 255, 255, 0.6);
   font-size: 1rem;
   padding-top: 6%;
@@ -202,19 +204,20 @@ body {
   box-shadow: 0 1.5rem 4rem #777777;
   width: 25%; }
   .feature-box-3-heading-text-3 {
-    color: black;
+    color: white;
     padding-right: 12%;
     font-size: 1rem; }
   .feature-box-3-paragraph-text-3 {
-    color: black;
+    color: white;
     font-size: 1rem;
     padding-right: 10%;
     padding-bottom: 15%; }
 
-.icon-basic-world-3 {
+.icon-3 {
   width: 35%;
   padding-top: 10%;
-  padding-right: 10%; }
+  padding-right: 10%;
+  filter: opacity(0.6) drop-shadow(0 0 0 #777777); }
 
 .header {
   height: 95vh;
