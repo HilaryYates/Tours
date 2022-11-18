@@ -28,7 +28,7 @@
   width: 35%;
   padding-top: 10%;
   padding-right: 10%;
-  filter: opacity(0.75) drop-shadow(0 0 0 $color-grey-dark);
+  filter: brightness(0) invert(1);
 }
 
 .feature-box-2 {
@@ -62,7 +62,7 @@
   width: 35%;
   padding-top: 10%;
   padding-right: 10%;
-  filter: opacity(0.6) drop-shadow(0 0 0 $color-grey-dark);
+  filter: brightness(0) invert(1);
 }
 
 .feature-box-3 {
@@ -96,5 +96,5 @@
   width: 35%;
   padding-top: 10%;
   padding-right: 10%;
-  filter: opacity(0.6) drop-shadow(0 0 0 $color-grey-dark);
+  filter: brightness(0) invert(1);
 }
